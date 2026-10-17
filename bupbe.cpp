@@ -12,7 +12,7 @@ cin>>n;
 for(int i=0;i<n;i++){
     cout<<"nhap chieu cao bup be thu "<<i+1<<": ";
     cin>>x;
-    if(!q.empty()&& q.front()-3>=x){
+    if(!q.empty()&& q.front()-15>=x){
         q.pop();
     }
     q.push(x);
